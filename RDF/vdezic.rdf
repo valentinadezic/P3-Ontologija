@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:cert="http://www.w3.org/ns/auth/cert#"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <foaf:Person rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Valentina_Dezic">
+    <foaf:name>Valentina Dezic</foaf:name>
+    <foaf:title>Mrs</foaf:title>
+    <foaf:givenName>Valentina</foaf:givenName>
+    <foaf:familyName>Dezic</foaf:familyName>
+    <foaf:gender>Female</foaf:gender>
+
+    <foaf:interest>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Netflix">
+        <foaf:name>Netflix</foaf:name>
+        <dc:description>Gledanje Netflixa u slobodno vrijeme</dc:description>
+      </owl:NamedIndividual>
+    </foaf:interest>
+
+    <foaf:interest>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Books">
+        <foaf:name>Books</foaf:name>
+        <dc:description>Čitanje knjiga u slobodno vrijeme</dc:description>
+      </owl:NamedIndividual>
+    </foaf:interest>
+
+    <foaf:interest>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Graphic_Design">
+        <foaf:name>Books</foaf:name>
+        <dc:description>Učenje grafičkog dizajna</dc:description>
+      </owl:NamedIndividual>
+    </foaf:interest>
+
+    <foaf:knows>
+      <foaf:Person rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Ana_Draz">
+        <foaf:name>Ana Draz</foaf:name>
+        <foaf:plan>Diplomirati</foaf:plan>
+        <dc:description>Prijateljica</dc:description>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Matea_Petro">
+        <foaf:name>Matea Petro</foaf:name>
+        <foaf:givenName>Matea</foaf:givenName>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Marko_Lac">
+        <foaf:name>Marko Lac</foaf:name>
+        <dc:description>Prijatelj</dc:description>
+          <foaf:dislikes>
+            <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/vdezic-ontologija#German">
+              <dc:description>Njemački jezik</dc:description>
+              <foaf:name>Njemački</foaf:name>
+            </owl:NamedIndividual>
+        </foaf:dislikes>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:currentProject>
+      <foaf:Project rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Master_thesis">
+        <dc:description>Diplomski rad na drugoj godini diplomskog studija</dc:description>
+        <foaf:homepage rdf:resource="http://oziz.ffos.hr/"/>
+        <foaf:name>Diplomski rad</foaf:name>
+      </foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:pastProject>
+      <foaf:Project rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Bachelor_thesis">
+        <dc:description>Završni rad na trećoj godini preddiplomskog studija</dc:description>
+        <foaf:homepage rdf:resource="https://repozitorij.ffos.hr/en/islandora/object/ffos%3A4720"/>
+        <foaf:name>Završni rad</foaf:name>
+      </foaf:Project>
+    </foaf:pastProject>
+
+    <foaf:workplaceHomepage>
+      <foaf:Document rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Factoryhr">
+        <foaf:homepage rdf:resource="https://factory.hr"/>
+        <rdfs:label>Plava tvornica Osijek</rdfs:label>
+        <dc:description>Praksa</dc:description>
+        <foaf:name>Factory.hr</foaf:name>
+      </foaf:Document>
+    </foaf:workplaceHomepage>
+
+    <foaf:wentTo>
+      <owl:NamedIndividual rdf:about="http://oziz.ffos.hr/vdezic-ontologija#OS_Antun_Gustav_Matos">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Education"/>
+        <dc:description>Osnovna škola Antuna Gustava Matoša u Vinkovcima</dc:description>
+        <foaf:name>Osnovna škola Antuna Gustava Matoša</foaf:name>
+      </owl:NamedIndividual>
+    </foaf:wentTo>
+
+    <foaf:schoolHomepage>
+      <foaf:Document rdf:about="http://oziz.ffos.hr/vdezic-ontologija#Ffos">
+        <foaf:homepage rdf:resource="https://web.ffos.hr"/>
+        <rdfs:label>FFOS</rdfs:label>
+        <dc:description>Filozofski fakultet u Osijeku</dc:description>
+        <foaf:name>FFOS</foaf:name>
+      </foaf:Document>
+    </foaf:schoolHomepage>
+
+  </foaf:Person>
+</rdf:RDF>
